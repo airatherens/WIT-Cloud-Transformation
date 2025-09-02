@@ -41,7 +41,7 @@ Storage account → **Data storage** → **File shares** → **+ File share**
 - Name: `forms-documents`  
 - Defaults OK → Create
 
-![Create file share](../admin-fileshare-create.png)
+![Create file share](../assets/admin-fileshare-create.png)
 
 ## 4) Least-Privilege Roles on the Share
 
@@ -68,7 +68,7 @@ Storage account → **Data management** → **Lifecycle management** → **Add a
 - IF: **Last modified** > **90** days  
 - THEN: **Move to cool storage**
 
-![Lifecycle rule](../admin-lifecycle-rule.png)
+![Lifecycle rule](../assets/admin-lifecycle-rule.png)
 
 ## 6) Authentication Choice (Scope Note)
 
