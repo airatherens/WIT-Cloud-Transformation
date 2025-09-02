@@ -41,8 +41,6 @@ Storage account → **Data storage** → **File shares** → **+ File share**
 - Name: `forms-documents`  
 - Defaults OK → Create
 
-![Create file share](../assets/admin-fileshare-create.png)
-
 ## 4) Least-Privilege Roles on the Share
 
 Storage account → **Access control (IAM)** → **Add role assignment**
