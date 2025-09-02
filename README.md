@@ -148,4 +148,13 @@ Each WIT department received its own **Azure Resource Group (RG)** with tagging 
 
 - **Amrit Kaur Dhiman** – IT Department (Identity, RBAC, VPN, Backup/Monitoring)  
 - **Aira Therens** – Admin Services (File Shares, Policies, Compliance)  
-- **Dylan Yee** – Academic Services (AKS, Websites, SQL, Marks App, VM Templates)  
+- **Dylan Yee** – Academic Services (AKS, Websites, SQL, Marks App, VM Templates)
+
+## Detailed Walkthroughs
+
+- **Administrative Department (RG-Admin):** Azure Files + lifecycle tiering, Entra ID groups (AD-Users, AD-Directors, AD-OfficeStaff), least-privilege RBAC, and mapping SMB shares from a joined Windows 11 VM.  
+  → See: [`docs/Administrative-Department.md`](docs/Administrative-Department.md)
+
+- **PBMM Compliance Policies (Azure Policy):** Separation of duties (≤3 Owners, >1 Owner), storage network restriction, secure transfer required, SQL TDE. Step-by-step portal assignments and compliance checks.  
+  → See: [`docs/PBMM-Policies.md`](docs/PBMM-Policies.md)
+
