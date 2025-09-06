@@ -4,7 +4,7 @@ Western Institute of Technology (WIT) – Hybrid Cloud Simulation Project for ou
 
 ---
 
-## 📖 Overview
+##Overview
 
 Team project for CPSY-304 (Amrit, Aira, Dylan).  
 The goal was to simulate a hybrid cloud migration for **Western Institute of Technology (WIT)**, which currently operates an aging Calgary datacenter and minimal branch-site servers in Edmonton and Lethbridge.
@@ -20,7 +20,7 @@ The goal was to simulate a hybrid cloud migration for **Western Institute of Tec
 
 ---
 
-## 🏗️ Cloud Architecture
+##Cloud Architecture
 
 ### Departments & Resource Groups
 Each WIT department received its own **Azure Resource Group (RG)** with tagging for billing:
@@ -46,7 +46,7 @@ Each WIT department received its own **Azure Resource Group (RG)** with tagging 
 
 ---
 
-## ⚙️ Services Implemented
+##Services Implemented
 
 | Service | Azure Tool | Owner |
 |---------|------------|-------|
@@ -63,7 +63,7 @@ Each WIT department received its own **Azure Resource Group (RG)** with tagging 
 
 ---
 
-## 🔐 Identity & Security
+##Identity & Security
 
 - **Entra ID tenant** for all departments
 - **RBAC:**
@@ -83,7 +83,7 @@ Each WIT department received its own **Azure Resource Group (RG)** with tagging 
 
 ---
 
-## 💰 Costing & Budgets
+##Costing & Budgets
 
 - **Test/Dev budget** capped at **$5,000/month**  
 - Each department billed separately using tags  
@@ -91,7 +91,7 @@ Each WIT department received its own **Azure Resource Group (RG)** with tagging 
 
 ---
 
-## 📹 Demo Deliverables
+##Demo Deliverables
 
 - **Document:** Drawings, pricing, recommendations  
 - **Video Demo:** <20 min walkthrough of Azure resources, configs, and features  
@@ -99,7 +99,7 @@ Each WIT department received its own **Azure Resource Group (RG)** with tagging 
 
 ---
 
-## 🗂️ Weekly Logs
+##Weekly Logs
 
 | Date | Time | Who | Work Done |
 |------|------|-----|-----------|
@@ -117,7 +117,7 @@ Each WIT department received its own **Azure Resource Group (RG)** with tagging 
 
 ---
 
-## 🎓 Lessons Learned
+##Lessons Learned
 
 - RBAC + admin units are critical to avoid “too open” access  
 - Automatic storage tiering reduces costs significantly  
@@ -128,23 +128,23 @@ Each WIT department received its own **Azure Resource Group (RG)** with tagging 
 
 ---
 
-## ✅ Rubric Coverage
+##Rubric Coverage
 
-- **Identities & Org Structure** ✔️  
-- **RBAC Roles & Locks** ✔️  
-- **Initiatives & Policies** ✔️ (PBMM compliance)  
-- **Subscriptions & Billing** ✔️ (per-department tagging)  
-- **File Shares & Video Workflows** ✔️  
-- **Web Apps (Info + Registration)** ✔️  
-- **AKS Voting App** ✔️  
-- **Instructor VM Templates** ✔️  
-- **Connection to Cloud** ✔️ (VPN S2S)  
-- **Backup & Replication** ✔️  
-- **Monitoring & Security** ✔️  
+- **Identities & Org Structure**   
+- **RBAC Roles & Locks**  
+- **Initiatives & Policies** (PBMM compliance)  
+- **Subscriptions & Billing**  (per-department tagging)  
+- **File Shares & Video Workflows**   
+- **Web Apps (Info + Registration)**   
+- **AKS Voting App**   
+- **Instructor VM Templates** 
+- **Connection to Cloud**  (VPN S2S)  
+- **Backup & Replication**   
+- **Monitoring & Security**   
 
 ---
 
-## 👥 Team
+##Team
 
 - **Amrit Kaur Dhiman** – IT Department (Identity, RBAC, VPN, Backup/Monitoring)  
 - **Aira Therens** – Admin Services (File Shares, Policies, Compliance)  
